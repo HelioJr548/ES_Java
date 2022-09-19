@@ -2,7 +2,7 @@ package Array_Bidimensional;
 
 import javax.swing.JOptionPane;
 
-public class matriz {
+public class Programa{
 	
 	public static void main(String[] args) {
 		int[][] matriz = new int[2][3];
