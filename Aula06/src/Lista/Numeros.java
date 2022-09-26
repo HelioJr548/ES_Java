@@ -38,6 +38,16 @@ public class Numeros {
 		}
 	}
 	
+	public boolean remover() {
+		if (this.tamanho <= this.qtdItens && this.tamanho > 0) {
+			itens[tamanho-1] = 0;
+			tamanho--;
+			return true;
+		}else {
+			return false;			
+		}
+	}
+	
 	public void imprimir() {
 		System.out.print("[");
 		for(int i=0; i<getTamanho(); i++) {
