@@ -27,6 +27,17 @@ public class Numeros {
 		return tamanho;
 	}
 	
+	public int pesquisar(int n) {
+		int i;
+		for (i = 0; i< getTamanho() && itens[i] != n; i++) {
+		}
+		if(itens[i] == n) {
+			return i;			
+		}else {
+			return -1;			
+		}
+	}
+	
 	public void imprimir() {
 		System.out.print("[");
 		for(int i=0; i<getTamanho(); i++) {
