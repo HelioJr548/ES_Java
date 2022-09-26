@@ -37,6 +37,8 @@ public class Programa {
 		numero.imprimir();
 		System.out.println("Procurando 3 na lista -> Resultado indice ="+numero.pesquisar(3));
 		
+		System.out.println(numero.remover());
+		numero.imprimir();
 		
 	}
 
