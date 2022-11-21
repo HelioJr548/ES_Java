@@ -7,7 +7,7 @@ public class Main {
 		Lista contato = new Lista();
 		contato.adicionar(new Contato("Ana", "ana@gmail.com"));
 		contato.adicionar(new Contato("Paulo", "pa@gmail.com"));
-		contato.toString();
+		contato.print();
 		
 	}
 
